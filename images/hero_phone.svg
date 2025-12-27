@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dcfce7"/>
+      <stop offset="1" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="p" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#0b3d1f"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0b3d1f" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#bg)"/>
+  <!-- soft shapes -->
+  <circle cx="140" cy="120" r="70" fill="#bbf7d0" opacity=".7"/>
+  <circle cx="240" cy="420" r="90" fill="#86efac" opacity=".35"/>
+  <circle cx="760" cy="130" r="110" fill="#22c55e" opacity=".12"/>
+  <!-- phone -->
+  <g transform="translate(560,60)" filter="url(#s)">
+    <rect x="0" y="0" width="270" height="400" rx="34" fill="url(#p)"/>
+    <rect x="18" y="18" width="234" height="364" rx="24" fill="#f0fdf4"/>
+    <rect x="95" y="10" width="80" height="10" rx="5" fill="#0a2f18" opacity=".5"/>
+    <!-- UI -->
+    <text x="38" y="70" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="18" font-weight="700" fill="#14532d">Today</text>
+    <rect x="38" y="88" width="194" height="82" rx="18" fill="#dcfce7" stroke="#86efac"/>
+    <text x="56" y="118" font-family="ui-sans-serif, system-ui" font-size="14" fill="#0b3d1f">Workout</text>
+    <text x="56" y="144" font-family="ui-sans-serif, system-ui" font-size="12" fill="#14532d" opacity=".85">Proof: Accepted ✓</text>
+    <circle cx="196" cy="128" r="22" fill="#22c55e"/>
+    <path d="M186 128l7 7 14-16" fill="none" stroke="#052e16" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="188" width="194" height="120" rx="18" fill="#ecfdf5" stroke="#bbf7d0"/>
+    <text x="56" y="220" font-family="ui-sans-serif, system-ui" font-size="14" fill="#0b3d1f">Streak</text>
+    <text x="56" y="248" font-family="ui-sans-serif, system-ui" font-size="36" font-weight="800" fill="#14532d">9</text>
+    <text x="96" y="248" font-family="ui-sans-serif, system-ui" font-size="14" fill="#14532d" opacity=".9">days</text>
+    <text x="56" y="284" font-family="ui-sans-serif, system-ui" font-size="12" fill="#14532d" opacity=".85">Next reward unlocked</text>
+    <rect x="38" y="326" width="194" height="36" rx="12" fill="#22c55e"/>
+    <text x="70" y="350" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700" fill="#052e16">Submit proof</text>
+  </g>
+  <!-- caption -->
+  <g transform="translate(56,90)">
+    <text x="0" y="0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="44" font-weight="900" fill="#052e16">
+      Quiet accountability.
+    </text>
+    <text x="0" y="44" font-family="ui-sans-serif, system-ui" font-size="44" font-weight="900" fill="#052e16">
+      Proof-based habits.
+    </text>
+    <text x="0" y="92" font-family="ui-sans-serif, system-ui" font-size="18" fill="#14532d" opacity=".92">
+      Verity helps you keep promises to yourself — without shame, without pressure.
+    </text>
+  </g>
+</svg>
