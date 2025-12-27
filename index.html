@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
+  <script src="index.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -86,6 +87,195 @@
       </div>
       <div class="wave" aria-hidden="true">
         <img src="images/divider_wave.svg" alt=""/>
+      </div>
+    </section>
+
+    <!-- ANIMATED SCREEN CARDS (new) -->
+    <section class="section section--alt" aria-label="Animated prototype cards">
+      <div class="container">
+        <header class="section__head">
+          <h2>Scroll cards (prototype)</h2>
+          <p>
+            Debug the “new card appears” behavior here.
+            Switch animation by editing <code>ANIMATION_MODE</code> in <code>index.js</code>:
+            <strong>current</strong> or <strong>catchup_half</strong>.
+          </p>
+        </header>
+      </div>
+
+      <div class="scrollCards" data-scrollcards>
+        <!-- 14 full-screen panels -->
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-1">
+            <div class="sc__top">
+              <span class="sc__pill">Card 01</span>
+              <span class="sc__tag">Goal</span>
+            </div>
+            <h3>Pick a tiny goal</h3>
+            <p>Make it easy to start. Verity is built for “show up” days.</p>
+            <div class="sc__media">
+              <img src="images/icon_proof.svg" alt="" aria-hidden="true" loading="lazy"/>
+            </div>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-2">
+            <div class="sc__top">
+              <span class="sc__pill">Card 02</span>
+              <span class="sc__tag">Action</span>
+            </div>
+            <h3>Do the action</h3>
+            <p>No manual tracking. Just do the thing.</p>
+            <div class="sc__media">
+              <img src="images/icon_ai.svg" alt="" aria-hidden="true" loading="lazy"/>
+            </div>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-3">
+            <div class="sc__top">
+              <span class="sc__pill">Card 03</span>
+              <span class="sc__tag">Proof</span>
+            </div>
+            <h3>Snap a photo</h3>
+            <p>Gym panel, meal, notebook, treadmill stats — your real proof.</p>
+            <div class="sc__media">
+              <img src="images/hero_phone.svg" alt="" aria-hidden="true" loading="lazy"/>
+            </div>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-4">
+            <div class="sc__top">
+              <span class="sc__pill">Card 04</span>
+              <span class="sc__tag">Verify</span>
+            </div>
+            <h3>Get verified</h3>
+            <p>AI checks relevance and timing with human-like tolerance.</p>
+            <div class="sc__media">
+              <img src="images/icon_privacy.svg" alt="" aria-hidden="true" loading="lazy"/>
+            </div>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-5">
+            <div class="sc__top">
+              <span class="sc__pill">Card 05</span>
+              <span class="sc__tag">Timing</span>
+            </div>
+            <h3>Flexible timing rules</h3>
+            <p>Late upload? If it happened in the right window, Verity can still accept it.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-6">
+            <div class="sc__top">
+              <span class="sc__pill">Card 06</span>
+              <span class="sc__tag">Streaks</span>
+            </div>
+            <h3>Resilient streaks</h3>
+            <p>Built to help you recover instead of “breaking forever”.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-7">
+            <div class="sc__top">
+              <span class="sc__pill">Card 07</span>
+              <span class="sc__tag">UX</span>
+            </div>
+            <h3>Anti-shame design</h3>
+            <p>No scolding screens. Verity gives you a path forward.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-8">
+            <div class="sc__top">
+              <span class="sc__pill">Card 08</span>
+              <span class="sc__tag">Rewards</span>
+            </div>
+            <h3>Celebrate consistency</h3>
+            <p>Short animations and streak milestones that make showing up feel good.</p>
+            <div class="sc__media">
+              <img src="images/icon_rewards.svg" alt="" aria-hidden="true" loading="lazy"/>
+            </div>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-9">
+            <div class="sc__top">
+              <span class="sc__pill">Card 09</span>
+              <span class="sc__tag">Tone</span>
+            </div>
+            <h3>Optional personalization</h3>
+            <p>Witty, calm, sporty, wholesome — choose the vibe (optional).</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-10">
+            <div class="sc__top">
+              <span class="sc__pill">Card 10</span>
+              <span class="sc__tag">Privacy</span>
+            </div>
+            <h3>Privacy-first</h3>
+            <p>Your discipline isn’t ad inventory. Minimize data, maximize trust.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-11">
+            <div class="sc__top">
+              <span class="sc__pill">Card 11</span>
+              <span class="sc__tag">Clarity</span>
+            </div>
+            <h3>Clear statuses</h3>
+            <p>Sent • Accepted • Accepted w/ Note • Rejected • Needs retry.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-12">
+            <div class="sc__top">
+              <span class="sc__pill">Card 12</span>
+              <span class="sc__tag">Progress</span>
+            </div>
+            <h3>Make progress visible</h3>
+            <p>Fast feedback loops: “I did it” → “I’m improving”.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel">
+          <article class="scrollCard sc-tone-13">
+            <div class="sc__top">
+              <span class="sc__pill">Card 13</span>
+              <span class="sc__tag">Trust</span>
+            </div>
+            <h3>Accountability without an audience</h3>
+            <p>Verity is your private witness — not your public scoreboard.</p>
+          </article>
+        </section>
+
+        <section class="scrollPanel scrollPanel--last">
+          <article class="scrollCard sc-tone-14">
+            <div class="sc__top">
+              <span class="sc__pill">Card 14</span>
+              <span class="sc__tag">Debug</span>
+            </div>
+            <h3>Test the trigger</h3>
+            <p>
+              <strong>current</strong> uses intersection threshold.<br/>
+              <strong>catchup_half</strong> shows the next card when the previous card’s bottom hits mid-screen.
+            </p>
+          </article>
+        </section>
       </div>
     </section>
 
@@ -395,22 +585,5 @@
       <span>Green tones = growth</span>
     </div>
   </footer>
-
-  <script>
-    // Tiny JS for mobile menu + year
-    const burger = document.querySelector('.nav__burger');
-    const menu = document.getElementById('mobileMenu');
-    burger?.addEventListener('click', () => {
-      const open = burger.getAttribute('aria-expanded') === 'true';
-      burger.setAttribute('aria-expanded', String(!open));
-      menu.hidden = open;
-    });
-    document.getElementById('year').textContent = new Date().getFullYear();
-    // Close menu after tap
-    document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => {
-      burger.setAttribute('aria-expanded', 'false');
-      menu.hidden = true;
-    }));
-  </script>
 </body>
 </html>
