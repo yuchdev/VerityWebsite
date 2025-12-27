@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Verity — Quiet accountability with proof</title>
+    <meta name="description" content="Verity is a gentle, proof-based habit coach. Set goals, snap a photo, get verified — no shame, just support."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+    <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="Verity Home">
+            <img src="images/logo.svg" alt="Verity" width="140" height="42"/>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+            <a href="#how">How it works</a>
+            <a href="#features">Features</a>
+            <a href="#mission">Mission</a>
+            <a href="#news">News</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+        <div class="nav__cta">
+            <a class="btn btn--ghost" href="#pricing">Trial</a>
+            <a class="btn btn--primary" href="#pricing">Start</a>
+        </div>
+        <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <div id="mobileMenu" class="mobile" hidden>
+        <div class="container mobile__inner">
+            <a href="#how">How it works</a>
+            <a href="#features">Features</a>
+            <a href="#mission">Mission</a>
+            <a href="#news">News</a>
+            <a href="#feedback">Feedback</a>
+            <div class="mobile__cta">
+                <a class="btn btn--ghost" href="#pricing">Trial</a>
+                <a class="btn btn--primary" href="#pricing">Start</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+    <section id="news" class="section section--alt">
+        <div class="container">
+            <header class="section__head">
+                <h2>News</h2>
+                <p>Short updates from development. Transparency builds trust.</p>
+            </header>
+
+            <div class="news">
+                <article class="news__item">
+                    <div class="news__date">Update</div>
+                    <h3>Proof timing rules (configurable)</h3>
+                    <p>Working on accepting late submissions when the activity still fits the goal window.</p>
+                </article>
+                <article class="news__item">
+                    <div class="news__date">Update</div>
+                    <h3>Reward animations v0</h3>
+                    <p>One “prove” animation + one “streak” animation to start — more variety later.</p>
+                </article>
+                <article class="news__item">
+                    <div class="news__date">Update</div>
+                    <h3>Activity cards & statuses</h3>
+                    <p>Designing clear states: active, proof provided, late/missed, inactive, pending review.</p>
+                </article>
+            </div>
+
+            <div class="callout">
+                Want monthly updates? <a href="#feedback">Leave your email →</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__grid">
+        <div class="footer__brand">
+            <img src="images/logo.svg" alt="Verity" width="120" height="36"/>
+            <p>Quiet accountability with proof. Built for dignity.</p>
+        </div>
+        <div class="footer__links">
+            <a href="#how">How it works</a>
+            <a href="#features">Features</a>
+            <a href="#mission">Mission</a>
+        </div>
+        <div class="footer__links">
+            <a href="#news">News</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#pricing">Trial</a>
+            <a href="#top">Back to top ↑</a>
+        </div>
+    </div>
+    <div class="container footer__bottom">
+        <span>© <span id="year"></span> Verity</span>
+        <span class="dot">•</span>
+        <span>Green tones = growth</span>
+    </div>
+</footer>
+</body>
+</html>
